@@ -4,13 +4,11 @@ from tkinter import *
 import tkinter.messagebox
 from tkinter import ttk
 
-
 class Address:
     def __init__(self, name, email, phone):
         self.name = name
         self.email = email
         self.phone = phone
-
 
 class AddressBook:
     def __init__(self, parent, title):
