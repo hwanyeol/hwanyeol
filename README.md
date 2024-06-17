@@ -1,16 +1,15 @@
+
 import pickle
 import os.path
 from tkinter import *
 import tkinter.messagebox
 from tkinter import ttk
 
-
 class Address:
     def __init__(self, name, email, phone):
         self.name = name
         self.email = email
         self.phone = phone
-
 
 class AddressBook:
     def __init__(self, parent, title):
@@ -155,7 +154,6 @@ class AddressBook:
 
     def on_exit(self, event=None):
         self.parent.destroy()
-
 if __name__ == '__main__':
     root = Tk()
 
